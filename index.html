@@ -5,11 +5,77 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Simpsons Quiz</title>
 </head>
 <body>
   <div class="container">
-  <h1></h1>
+  <h1>Which Simpsons Character Are You?</h1>
+  <form id="quiz">
+    <div class="row">
+      <div class="col-3">
+        <h3>What's your favorite hobby?</h3>
+        <label for="q1r1">
+          <input id="q1r1" type="radio" name="hobby" value="lisa" checked>
+          Playing saxophone
+        </label>
+        <label for="q1r2">
+          <input type="radio" name="hobby" value="bart">
+          Skateboarding
+        </label>
+        <label for="q1r3">
+          <input type="radio" name="hobby" value="nelson">
+          Beating Up Other Kids
+        </label>
+      </div>
+      <div class="col-3">
+        <h3>How do you feel about school?</h3>
+        <label for="q2r1">
+          <input id="q2r1" type="radio" name="school" value="bart" checked>
+          Where else am I going to pull my pranks?
+        </label>
+        <label for="q2r2">
+          <input id="q2r2" input type="radio" name="school" value="lisa">
+          Love it!
+        </label>
+        <label for="q2r3">
+          <input id="q2r3" input type="radio" name="school" value="nelson">
+          What's school?
+        </label>
+      </div>
+      <div class="col-3">
+        <h3>What's your favorite food?</h3>
+        <label for="q3r1">
+          <input id="q3r1" type="radio" name="food" value="nelson" checked>
+          Whatever I can steal from the nerds
+        </label>
+        <label for="q3r2">
+          <input id="q3r2" input type="radio" name="food" value="bart">
+          Slushies
+        </label>
+        <label for="q3r3">
+          <input id="q3r3" input type="radio" name="food" value="lisa">
+          Salad
+        </label>
+      </div>
+      <div class="col-3">
+        <h3>What's your catch phrase?</h3>
+        <label for="q4r1">
+          <input id="q4r1" type="radio" name="phrase" value="lisa" checked>
+          If anyone wants me, I'll be in my room.
+        </label>
+        <label for="q4r2">
+          <input id="q4r2" input type="radio" name="phrase" value="bart">
+          Eat my shorts!
+        </label>
+        <label for="q4r3">
+          <input id="q4r3" input type="radio" name="phrase" value="nelson">
+          Ha Ha!
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn">Show my results!</button>
+  </form>
   </div>
 </body>
 </html>
+
